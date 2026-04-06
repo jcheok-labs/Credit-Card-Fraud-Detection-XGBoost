@@ -38,14 +38,14 @@ This project builds a machine learning model using **XGBoost** to detect fraudul
 ## 📊 Exploratory Data Analysis (EDA)
 - Class distribution is highly imbalanced (~1:283 ratio)
 - Visualized transaction **amount distribution**, **hourly fraud rate**, and **feature correlations**
-- Identified top discriminative features correlated with fraud: **V14, V17, V12, V10, V16, V3**
+- Identified top discriminative features correlated with fraud: **V14, V17, V10**
 
 ---
 
 ## 📈 Key Results
 - Optimized XGBoost model achieved:
   - **High recall for fraud detection (~82%)**
-  - **Moderate precision (~48%)**, reflecting trade-off with false positives
+  - **Moderate precision (~72%)**, reflecting trade-off with false positives
   - **Near-perfect overall accuracy (~100%)** due to majority class
 - **Threshold tuning** improved F1-score for rare fraud cases
 - **Feature importance** highlighted key variables contributing to fraud detection, consistent with mutual information scores
